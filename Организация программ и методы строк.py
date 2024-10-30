@@ -1,0 +1,7 @@
+my_string = input("Введите значение: ")
+print(f"Ваше значение: {my_string}")
+print(f"Ваше значение в верхнем регистре: {my_string.upper()}")
+print(f"Ваше значение в нижнем регистре: {my_string.lower()}")
+print(f"Ваше значение без пробелов: {my_string.replace(" ", "")}")
+print(f"Первый символ вашего значения: {my_string[0]}")
+print(f"Последний символ вашего значения: {my_string[-1]}")
